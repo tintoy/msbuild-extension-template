@@ -2,15 +2,15 @@
     <UsingTask TaskName="MSBuildExtensionTask" AssemblyFile="$(MSBuildThisFileDirectory)MSBuildExtension.dll" />
 
     <Target Name="MSBuildExtensionBeforeBuild" BeforeTargets="Build">
-        <Message Text="Before build, (MSBuildExtensionProperty = '$(MSBuildExtensionProperty)')" Importance="high" />
+        <Message Text="Before build, MSBuildExtensionProperty = '$(MSBuildExtensionProperty)'." Importance="high" />
 
-        <Message Text="Updating MSBuildExtensionProperty from '$(_MSBuildExtensionPropsFile)'" Importance="low" />
+        <Message Text="Updating MSBuildExtensionProperty from '$(_MSBuildExtensionPropsFile)'..." Importance="low" />
         <MSBuildExtensionTask InputFile="$(_MSBuildExtensionPropsFile)">
             <Output TaskParameter="Content" PropertyName="MSBuildExtensionProperty" >
         </MSBuildExtensionTask>
     </Target>
 
     <Target Name="MSBuildExtensionAfterBuild" AfterTargets="Build">
-        <Message Text="MSBuildExtension: after build (MSBuildExtensionProperty = '$(MSBuildExtensionProperty)')" Importance="high" />
+        <Message Text="After build, MSBuildExtensionProperty = '$(MSBuildExtensionProperty)'." Importance="high" />
     </Target>
 </Project>
