@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <MSBuildExtensionProperty Condition=" '$(MSBuildExtensionProperty)' == '' ">HelloWorld</MSBuildExtensionProperty>
+
+        <_MSBuildExtensionPropsFile>$(MSBuildThisFile)</_MSBuildExtensionPropsFile>
+    <PropertyGroup>
+</Project>

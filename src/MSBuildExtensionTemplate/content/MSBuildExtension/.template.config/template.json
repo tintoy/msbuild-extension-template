@@ -1,0 +1,22 @@
+{
+    "author": "Adam Friedman (tintoy@tintoy.io)",
+    "classifications": [
+        "Common",
+        "MSBuild"
+    ],
+    "name": "MSBuild Extension",
+    "identity": "tintoy.dotnet.core.msbuild.extension",
+    "shortName": "msbuild-extension",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "MSBuildExtension",
+    "guids": [],
+    "preferNameDirectory": true,
+    "PrimaryOutputs": [
+        {
+            "path": "MSBuildExtension.csproj"
+        }
+    ]
+}
