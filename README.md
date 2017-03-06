@@ -12,8 +12,13 @@ This template is functional, but the documentation is still a work-in-progress.
     * `.targets` file uses custom task.
 * Generating a NuGet package with everything in the `build` folder.
 
+## Installing
+
+`dotnet new -i src/MSBuildExtensionTemplate/content`
+
 ## TODO
 
+- [ ] Publish NuGet package
 - [ ] Template parameter to suppress creation of MSBuild task.
 
 Create an issue if you have questions or would like to contribute :)
