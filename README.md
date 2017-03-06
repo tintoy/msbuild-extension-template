@@ -11,6 +11,7 @@ This template is functional, but the documentation is still a work-in-progress.
 * Custom `.props` / `.target` files.
     * `.targets` file uses custom task.
 * Generating a NuGet package with everything in the `build` folder.
+    * When installed into a project via `<PackageReference />`, the `.props` and `.targets` are automatically included in the project.
 
 ## Installing
 
