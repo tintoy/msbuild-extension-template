@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     
-    <Version>0.0.1-alpha1</Version>
-    <Title>MSBuildExtensionTemplate</Title>
-    <PackageId>FiftyProtons.Templates.MSBuildExtension</PackageId>
+    <Version>0.1.0</Version>
+    <Title>MSBuild Extension template</Title>
+    <PackageId>MSBuildExtensionTemplate</PackageId>
     <Summary>Project template for an MSBuild extension package</Summary>
     <Description>A project template for creating a new MSBuild extension package.</Description>
     <PackageTags>dotnet msbuild extension</PackageTags>

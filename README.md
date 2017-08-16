@@ -15,11 +15,6 @@ This template is functional, but the documentation is still a work-in-progress.
 
 ## Installing
 
-`dotnet new -i src/MSBuildExtensionTemplate/content`
-
-## TODO
-
-- [ ] Publish NuGet package
-- [ ] Template parameter to suppress creation of MSBuild task.
+`dotnet new -i "MSBuildExtensionTemplate::*"`
 
 Create an issue if you have questions or would like to contribute :)
